@@ -1,0 +1,41 @@
+/* Displays Fieldset using a thin border all around it, in grey with a small font title */
+.ibo-fieldset-legend {
+	color: $ibo-color-grey-600;
+	font-size: small;
+	width:unset;
+	border-bottom:0;
+	margin-bottom:0;
+	padding: 4px 4px 0 4px;
+	margin-left: -4px;
+}
+
+.ibo-fieldset {
+	border: 1px solid $ibo-color-grey-400 !important;
+	padding: 10px 10px;
+	border-radius: 6px;
+	margin-top: 18px;
+}
+
+/* Example of complex rules
+.ibo-fieldset ~ .ibo-fieldset:not(.ibo-column), fieldset ~ .ibo-fieldset:not(.ibo-column), .ibo-fieldset ~ fieldset:not(.ibo-column) {
+	margin-top: 18px;
+}
+ */
+
+/* Restore as in 2.7, the small field separator visible only on greyed rows
+ * Reduce space within rows of a table to create dense tables
+ */
+div.dataTables_scroll div.dataTables_scrollBody .dataTable {
+	border-spacing: 2px !important;
+	border-collapse: unset !important;
+	td {
+		padding: $old-school-datatables--row--padding-x $old-school-datatables--row--padding-y !important;
+	}
+}
+/* Reduce space at the top and bottom of Datatables*/
+.ibo-datatable-panel > .ibo-panel--body {
+	padding: 24px 0 0;
+}
+.ibo-datatable--toolbar:first-child {
+	margin-bottom: 6px;
+}

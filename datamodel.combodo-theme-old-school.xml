@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0">
+  <branding>
+    <themes>
+      <theme id="old-school" _delta="define">
+        <variables>
+        </variables>
+        <imports>
+          <import id="old-school-scss-variables" xsi:type="variables">combodo-theme-old-school/scss/scss-variables.scss</import>
+        </imports>
+        <stylesheets>
+          <stylesheet id="backoffice">../css/backoffice/main.scss</stylesheet>
+          <stylesheet id="old-school">combodo-theme-old-school/scss/rules.scss</stylesheet>
+        </stylesheets>
+      </theme>
+    </themes>
+  </branding>
+</itop_design>
