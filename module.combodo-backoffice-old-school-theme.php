@@ -5,7 +5,7 @@
 
 SetupWebPage::AddModule(
 	__FILE__, // Path to the current file, all other file names are relative to the directory containing this file
-	'combodo-theme-old-school/0.1.0',
+	'combodo-backoffice-old-school-theme/0.1.0',
 	array(
 		// Identification
 		//
@@ -23,7 +23,7 @@ SetupWebPage::AddModule(
 		// Components
 		//
 		'datamodel' => array(
-			'model.combodo-theme-old-school.php'
+			'model.combodo-backoffice-old-school-theme.php'
 		),
 		'webservice' => array(
 			

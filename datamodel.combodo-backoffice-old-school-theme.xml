@@ -6,11 +6,11 @@
         <variables>
         </variables>
         <imports>
-          <import id="old-school-scss-variables" xsi:type="variables">combodo-theme-old-school/scss/scss-variables.scss</import>
+          <import id="old-school-scss-variables" xsi:type="variables">combodo-backoffice-old-school-theme/scss/scss-variables.scss</import>
         </imports>
         <stylesheets>
           <stylesheet id="backoffice">../css/backoffice/main.scss</stylesheet>
-          <stylesheet id="old-school">combodo-theme-old-school/scss/rules.scss</stylesheet>
+          <stylesheet id="old-school">combodo-backoffice-old-school-theme/scss/rules.scss</stylesheet>
         </stylesheets>
       </theme>
     </themes>
