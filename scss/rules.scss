@@ -6,14 +6,19 @@
 	border-bottom:0;
 	margin-bottom:0;
 	padding: 4px 4px 0 4px;
-	margin-left: -4px;
+	margin-left: 0px;
 }
 
 .ibo-fieldset {
-	border: 1px solid $ibo-color-grey-400 !important;
+	border: 1px dashed $ibo-color-grey-400 !important;
 	padding: 10px 10px;
 	border-radius: 6px;
 	margin-top: 18px;
+}
+
+/* reduce border of dashlet badge */
+.ibo-dashlet-badge {
+	padding: 0px 0px;
 }
 
 /* Example of complex rules
@@ -34,8 +39,17 @@ div.dataTables_scroll div.dataTables_scrollBody .dataTable {
 }
 /* Reduce space at the top and bottom of Datatables*/
 .ibo-datatable-panel > .ibo-panel--body {
-	padding: 24px 0 0;
+	padding: 24px 12px 12px 12px;
 }
+.ibo-dashlet .ibo-panel--body {
+	padding: 16px 12px 8px 12px;
+}
+
+.ibo-dashlet-hader-dynamic--container > .ibo-pill {
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+
 .ibo-datatable--toolbar:first-child {
 	margin-bottom: 6px;
 }
